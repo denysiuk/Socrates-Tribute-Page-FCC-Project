@@ -1,4 +1,4 @@
-# Socrates-Tribute-Page-FCC-Project
+# Build a Tribute Page - Vladyslav Denysiuk
 
 The project was created as a part of FreeCodeCamp Responsive Web Design Projects.
 Done using HTML and CSS only.
