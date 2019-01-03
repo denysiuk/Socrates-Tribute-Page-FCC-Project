@@ -1,0 +1,143 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.containerFull{
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+
+.text-container{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4); 
+    color: white;
+    font-family: "Major Mono Display", monospace;
+}
+
+.text-container h1{
+    font-size: 5em;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0.3em;
+}
+
+.text-container p{
+    font-size: 1.5em;
+}
+
+.quote{
+    justify-content: center;
+    padding: 1rem;
+    margin: 3rem;
+    background: #eeeeee;
+    width: 60%; 
+    border: 3px solid rgba(0, 0, 0, 0.01);
+    border-radius: 20px;
+}
+
+.quote p {
+    text-align: center;
+    font-size: 2.5em;
+    font-style: italic;
+    color: #4a4a4a;           
+}
+
+.aligner {
+    display: flex;
+    justify-content: center;
+}
+
+
+article h2{
+    font-size: 3em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+article p{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 2% 10%;
+}
+
+.align-left {
+    float: left;
+    margin-right: 1em;
+    width: 300px;
+    height: auto; 
+}
+
+@media (max-width: 1000px){
+.align-left {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+}
+
+.align-right {
+    float: right;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 300px;
+    height: auto; 
+    margin-top: 2vw;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-style: italic;
+    background: url(https://www.ancient.eu/template/images/bg_quote.png) center 20px no-repeat;
+    padding: 76px 20px 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #b52600;
+    display: block;
+}
+
+@media (max-width: 1000px){
+.align-right {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+}
+
+h2{
+    font-family: "Major Mono Display", monospace;
+}
+
+.information-grey{
+    background: #eeeeee;
+    padding: 1vw 0;
+}
+
+.information-white{
+    padding: 1vw 0;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
